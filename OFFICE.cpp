@@ -4,7 +4,8 @@ using namespace std;
 int main(){
 int t,x,y;
     cin>>t;
-    for(int i=1 ; i<=t ; i++)
+    i=1;
+    while(i<t)
     {
         cin>>x>>y;
         cout<<(4*x) + y<<endl;
